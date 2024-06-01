@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightskyblue;
+  position: relative;
+}
+
+.add-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 50px;
+  padding: 4px 16px;
+  border: 1px solid black;
+  background-color: rgb(48, 232, 48);
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay > form {
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+}
+
+.overlay > form input {
+  display: block;
+  margin: 8px;
+  padding: 10px;
+  min-width: 500px;
+  font-size: 20px;
+}
+
+.overlay > form button {
+  font-size: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 27px;
+  right: 45px;
+  font-size: 55px;
+  padding: 4px 16px;
+  border: 1px solid black;
+  background-color: rgb(244, 9, 9);
+}
